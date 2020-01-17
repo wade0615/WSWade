@@ -167,14 +167,14 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 40vh 0 30vh;
   color: #fff;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 40vh 0;
   }
 }
 .intro-header .site-heading.archives,
@@ -236,12 +236,12 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: #ffefd5;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #ffd700;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
