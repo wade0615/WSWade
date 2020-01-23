@@ -68,14 +68,14 @@ $(function () {
    */
   if (GLOBAL_CONFIG.isPost) {
     // sidebar 自動打開
-    if ($('#sidebar').hasClass('auto_open') && isTocContent) {
-      $('#toggle-sidebar').addClass('on')
-      setTimeout(function () {
-        $('#toggle-sidebar').addClass('on')
-        openSidebar()
-      }, 400)
-      isAdjust(1)
-    }
+    // if ($('#sidebar').hasClass('auto_open') && isTocContent) {
+    //   $('#toggle-sidebar').addClass('on')
+    //   setTimeout(function () {
+    //     $('#toggle-sidebar').addClass('on')
+    //     openSidebar()
+    //   }, 400)
+    //   isAdjust(1)
+    // }
 
     // pc隱藏
     if (isTocContent) {
@@ -101,7 +101,7 @@ $(function () {
     $('#sidebar').css('transform', 'translateX(0px)')
     $('#toggle-sidebar').css({
       transform: 'rotateZ(0deg)',
-      color: '#1F2D3D',
+      // color: '#1F2D3D',
       opacity: '1'
     })
   }
