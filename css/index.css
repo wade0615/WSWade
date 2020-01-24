@@ -70,7 +70,7 @@ h5,
 h6 {
   position: relative;
   margin: 1rem 0 0.7rem;
-  color: #344c67;
+  color: #5987b7;
   font-weight: bold;
 }
 h1 code,
@@ -115,19 +115,19 @@ hr {
   position: relative;
   margin: 2rem auto;
   width: calc(100% - 4px);
-  border: 2px dashed #a4d8fa;
   background: #fff;
 }
 hr:hover:before {
   left: calc(95% - 20px);
 }
 hr:before {
+  display: none;
   position: absolute;
-  top: -10px;
+  top: -20px;
   left: 5%;
   z-index: 1;
   color: #ffd400;
-  content: '\f0c4';
+  content: '\f21c';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 20px;
   -webkit-transition: all 1s ease-in-out;
@@ -1243,11 +1243,12 @@ figure.highlight {
   position: relative;
 }
 blockquote {
-  margin: 0 0 1rem;
+  font-size: 1rem;
+  margin: 2rem;
   padding: 0.1rem 0.8rem;
   border-left: 0.2rem solid #ffd400;
-  background-color: #fff0a8;
-  color: #6a737d;
+  background-color: #777;
+  color: #e0ddc3;
 }
 blockquote a {
   word-break: break-all;
@@ -3537,7 +3538,8 @@ img {
   padding: 50px;
   max-width: 1000px;
   border-radius: 8px;
-  background: #fff;
+  color: #e0e3ff;
+  background: #000;
   -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   -webkit-transition: all 0.3s;
