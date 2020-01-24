@@ -3046,7 +3046,6 @@ header {
 .article-sort-item__title {
   display: -webkit-box;
   overflow: hidden;
-  height: 60px;
   color: #fff;
   font-size: 1rem;
   -webkit-transition: all 0.3s;
