@@ -1580,13 +1580,6 @@ blockquote footer cite:before {
   -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
-#aside_content .card-info img:hover {
-  -webkit-transform: rotate(540deg);
-  -moz-transform: rotate(540deg);
-  -o-transform: rotate(540deg);
-  -ms-transform: rotate(540deg);
-  transform: rotate(540deg);
-}
 #aside_content .card-info .author-info__name {
   font-weight: 500;
   font-size: 1.1rem;
