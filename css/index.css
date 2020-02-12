@@ -3626,6 +3626,7 @@ img {
 .layout_post #post a {
   color: #ffd400;
   text-decoration: none;
+  word-wrap: break-word;
 }
 .layout_post #post a:hover {
   text-decoration: underline;
