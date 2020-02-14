@@ -8,8 +8,8 @@ body {
   min-height: 100%;
   background: #fff;
   color: #4c4948;
-  font-size: 18px;
-  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-family: Noto Sans TC, Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicrMicrosoft YaHei;
   line-height: 2;
 }
 #body-wrap {
@@ -70,8 +70,9 @@ h4,
 h5,
 h6 {
   position: relative;
-  margin: 1rem 0 0.7rem;
-  color: #75afd6;
+  margin: 2rem 0 1rem;
+  border-bottom: solid 1px;
+  color: #b2b2b2;
   font-weight: bold;
 }
 h1 code,
@@ -178,7 +179,7 @@ table td {
 #site-name,
 #aside_content .author-info__name,
 #aside_content .author-info__description {
-  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Sriracha, Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .is_right {
   text-align: right;
@@ -1233,7 +1234,7 @@ canvas,
   padding: 0;
   background: #f6f8fa;
   color: #90a4ae;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
 }
 .code-area-wrap {
@@ -1246,9 +1247,9 @@ figure.highlight {
 blockquote {
   margin: 0 0 1rem;
   padding: 0.1rem 0.8rem;
-  border-left: 0.2rem solid #ffd400;
-  background-color: #fff0a8;
-  color: #6a737d;
+  border-left: 0.3rem solid #000;
+  background-color: #878787;
+  color: #000;
 }
 blockquote a {
   word-break: break-all;
@@ -1276,7 +1277,7 @@ blockquote footer cite:before {
   background: rgba(27,31,35,0.05);
   color: #f47466;
   word-wrap: break-word;
-  font-size: 18px;
+  font-size: 20px;
 }
 .article-container pre {
   padding: 10px 20px;
@@ -3265,7 +3266,7 @@ header {
 #pagination .prev-post .label,
 #pagination .next-post .label {
   position: absolute;
-  top: 50px;
+  top: 35px;
   z-index: 100;
   display: block;
   color: rgba(255,255,255,0.9);
@@ -3427,8 +3428,8 @@ a.fancybox:focus {
   outline: none;
 }
 p {
-  margin: 0 0 0.8rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  margin: 0 0 30px;
 }
 img {
   max-width: 100%;
@@ -3624,7 +3625,7 @@ img {
   word-break: break-word;
 }
 .layout_post #post a {
-  color: #ffd400;
+  color: #75afd6;
   text-decoration: none;
   word-wrap: break-word;
 }
