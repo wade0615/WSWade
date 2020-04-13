@@ -1278,6 +1278,7 @@ blockquote footer cite:before {
   color: #f47466;
   word-wrap: break-word;
   font-size: 20px;
+  white-space: normal;
 }
 .article-container pre {
   padding: 10px 20px;
