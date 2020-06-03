@@ -38,7 +38,7 @@ body {
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
-  background-color: #2b2b2b;
+  background-color: #ddd;
 }
 *::-webkit-scrollbar {
   width: 8px;
@@ -71,7 +71,6 @@ h5,
 h6 {
   position: relative;
   margin: 2rem 0 1rem;
-  color: #b2b2b2;
   font-weight: bold;
 }
 h1 code,
@@ -1267,9 +1266,6 @@ blockquote footer cite:before {
   padding: 0 0.3em;
   content: '—';
 }
-.article-container {
-  color: #b2b2b2;
-}
 .article-container pre,
 .article-container code {
   font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number !important;
@@ -1558,7 +1554,6 @@ blockquote footer cite:before {
   overflow: hidden;
   margin-top: 20px;
   border-radius: 8px;
-  background: #fff;
   -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   -webkit-transition: all 0.3s;
@@ -2770,7 +2765,7 @@ header {
   padding: 0;
   height: 280px;
   border-bottom: 2px solid #b2b2b2;
-  background: #2b2b2b;
+  background: #ddd;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2833,13 +2828,12 @@ header {
   display: inline-block;
   overflow: hidden;
   padding: 0 40px;
-  color: #4c4948;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
   display: -webkit-box;
   overflow: hidden;
   margin-bottom: 0.3rem;
-  color: #b2b2b2;
+  color: #4c4948;
   text-decoration: none;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
@@ -2937,7 +2931,6 @@ header {
   margin-top: 20px;
   width: 75%;
   border-radius: 8px;
-  background: #2b2b2b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2954,7 +2947,6 @@ header {
   padding-left: 1rem;
   font-size: 1.2rem;
   line-height: 1;
-  color: #ccc;
 }
 .article-sort-title:hover:before {
   border-color: #ff7242;
@@ -3019,7 +3011,6 @@ header {
 }
 .article-sort-item.year {
   font-size: 1rem;
-  color: #ccc;
 }
 .article-sort-item.year:hover:before {
   border-color: #ffd400;
@@ -3036,7 +3027,6 @@ header {
   display: -webkit-box;
   height: 60px;
   margin-left: 40px;
-  color: #ccc;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -3095,10 +3085,8 @@ header {
 .category-lists .category__title {
   text-align: center;
   font-size: 1.8rem;
-  color: #b2b2b2;
 }
 .category-list a {
-  color: #b2b2b2;
   font-size: 22px;
   text-decoration: none;
   cursor: pointer;
@@ -3529,9 +3517,6 @@ img {
   padding: 50px;
   max-width: 1000px;
   border-radius: 8px;
-  background: #2b2b2b;
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
