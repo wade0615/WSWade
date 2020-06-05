@@ -38,7 +38,7 @@ body {
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
-  background-color: #ddd;
+  background-color: #efefef;
 }
 *::-webkit-scrollbar {
   width: 8px;
@@ -83,6 +83,13 @@ h6 code {
 }
 h2 {
   border-bottom: solid 1px;
+}
+h4 {
+  margin: 3rem 2rem;
+  font-size: 1.2rem;
+  font-weight: initial;
+  font-style: italic;
+  text-align: center;
 }
 #content-outer {
   -webkit-box-flex: 1;
@@ -2765,7 +2772,7 @@ header {
   padding: 0;
   height: 280px;
   border-bottom: 2px solid #b2b2b2;
-  background: #ddd;
+  background: #efefef;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
