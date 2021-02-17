@@ -146,7 +146,7 @@ ga('send', 'pageview');
 <hr>
 <h2 id="fetch的回應">fetch的回應</h2>
 <p>MDN 這樣寫 <code>fetch</code> 的返回值</p>
-<p><img alt title data-src="https://miro.medium.com/max/365/0*3yAKdte1zF5NraNa.png" class="lazyload"></p>
+<p><img alt data-src="https://miro.medium.com/max/365/0*3yAKdte1zF5NraNa.png" class="lazyload" title></p>
 <p>一個 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise" target="_blank" rel="noopener">Promise</a>？那是啥？Promise是一個物件，有三種狀態，等待中（pending）、完成（resolve or fulfilled）跟失敗（reject）</p>
 <ul>
 <li>非同步操作的最終完成 fulfilled (或失敗 rejected ),及其結果值.</li>
@@ -175,7 +175,7 @@ ga('send', 'pageview');
 我定義一個變數 result 來儲存</p>
 <p>『我用 value 的方式來顯示 被非同步請求成功回傳 且被解析為 JSON 格式的結果』</p>
 <h3 id="then的回傳值">.then的回傳值</h3>
-<p><img alt title data-src="https://miro.medium.com/max/338/0*_-166zqei1jCWC7y.png" class="lazyload"></p>
+<p><img alt data-src="https://miro.medium.com/max/338/0*_-166zqei1jCWC7y.png" class="lazyload" title></p>
 <p>要注意的是 <code>.then的回傳值</code> 是 <a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Promise#%E6%8F%8F%E8%BF%B0" target="_blank" rel="noopener">擱置狀態的Promise</a>，是一個可以被轉換為一個操作成功（fulfilled）的狀態或是操作失敗（rejected）的狀態。</p>
 <p>要去注意 Promise 狀態（PromiseStatus），要是已經 操作成功（fulfilled）的狀態或是操作失敗（rejected）的狀態，才可以接續著做函式操作唷。</p>
 <hr>
